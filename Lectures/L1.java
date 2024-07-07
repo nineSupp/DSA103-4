@@ -20,35 +20,9 @@ package Lectures;
  * 
  * =================================================================================
  * 
- * Topics for week 1: Introduction to course Java revisited
+ *              Topics for week 1: Introduction to course of Java
  * 
- * 1) A class consists of methods (also called functions).
- * 
- * 2) All code (almost all) is contained in method.
- * 
- * 3) How to declare variables and how to use variables.
- * 
- * 4) Input and Output (built-in class).
- * 
- * 5) How to write a method.
- * 
- * 6) How to use parameters and return value.
- * 
- * 7) How to invoke a method and pass paramenter values to it.
- * 
- * 8) Basic data types, i.e. int, float, double, boolean, ...
- * 
- * 9) How to perform operations on basic data types, i.e. maths operations.
- * 
- * 10) Flow control using (conditional statements),
- * 
- * 11) Loops, for, and while.
- * 
- * 12) Array
- * 
- * 13) How to compile with or without IDE.
- * 
- * 14) *** Class Exercise 1: HelloWorld.java Exercise. ***
+ *  1) Class Exercise 1: HelloWorld.java Exercise. ***
  * 
  * =================================================================================
  * 
@@ -56,9 +30,9 @@ package Lectures;
 
 
 public class L1 {
+
     public static void main(String[] args) {
-
         System.out.println("Hello World!");
-
     }
+
 }

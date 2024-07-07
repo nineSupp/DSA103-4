@@ -4,7 +4,7 @@ package Exercises.Laboratory;
 public class Lab2 {
     public static void main(String[] args) {
         // Problem 2.
-        // System.out.print("사건은 다가와, ah-oh, ayy\n거세게 커져가, ah-oh, ayy\nThat tick, that tick, tick bomb\nThat tick, that tick, tick bomb\n감히 건드리지 못할 걸 (누구도 말이야)\n지금 내 안에선 (su-su-su-supernova)");
+        System.out.print("사건은 다가와, ah-oh, ayy\n거세게 커져가, ah-oh, ayy\nThat tick, that tick, tick bomb\nThat tick, that tick, tick bomb\n감히 건드리지 못할 걸 (누구도 말이야)\n지금 내 안에선 (su-su-su-supernova)");
 
         // Problem 4.
         int A = 5;
