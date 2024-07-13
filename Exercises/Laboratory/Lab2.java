@@ -1,5 +1,11 @@
 package Exercises.Laboratory;
 
+/*
+ * (Week 2)
+ * Name: Suppatouch Srinual (Nine)
+ * ID: 2420210037
+ * Note: Exercise from week 2, Laboratory 2.
+ */
 
 public class Lab2 {
     public static void main(String[] args) {
