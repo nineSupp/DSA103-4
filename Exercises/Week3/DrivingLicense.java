@@ -36,6 +36,7 @@ public class DrivingLicense {
                 3. Use logical operators to determine if the user is granted access.
                 4. Print whether the user is granted access or not.
         */
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your age: ");
