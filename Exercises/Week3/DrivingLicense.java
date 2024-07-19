@@ -30,7 +30,7 @@ public class DrivingLicense {
                 1. Import the Scanner class to read input from the keyboard.
                 2. Read the following inputs:
                     2.1. User's age (int).
-                    2.2. Whether the user has valid ID (boolean).
+                    2.2. Whether the user has valid ID (boolean).S
                     2.3. Whether the user is an employee (boolean).
                     2.4. Whether the user has a security clearance (boolean).
                 3. Use logical operators to determine if the user is granted access.
@@ -41,6 +41,7 @@ public class DrivingLicense {
 
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
+        boolean isLegal = age >= 18;
 
         System.out.print("ID Validity: ");
         boolean isIDValid = scanner.nextBoolean();
