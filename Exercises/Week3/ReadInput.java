@@ -4,7 +4,7 @@ package Exercises.Week3;
  * (Week 3)
  * Name: Suppatouch Srinual (Nine)
  * ID: 2420210037
- * Note: Exercise from week 3, Laboratory L3-1.
+ * Note: Exercise from week 4, Laboratory L3-1.
  */
 
 import java.util.Scanner;
