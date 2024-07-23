@@ -18,7 +18,6 @@ package Lectures;
  * **********************************************
  * 
  * =================================================================================
- * 
  *              Topics for week 1: Introduction to course of Java
  * 
  *  1) What Is Programming?
@@ -28,10 +27,8 @@ package Lectures;
  *      1.4) Fundamental Programming Concepts.
  * 
  *  2) Basic Java Revisited.
- * 
- *  3) TOIBE Index.
  *  
- *  4) *** PA 1.1: Hello World!
+ *  3) *** PA 1.1: Hello World!
  * 
  * =================================================================================
  * 
@@ -52,7 +49,6 @@ package Lectures;
  *                   computer to execute.
  * 
  * ---------------------------------------------------------------------------------
- * 
  *                          1.1. Key Aspects of Programming
  * 
  *  A) Algorithm Design: Design a step-by-step procedures of the portions of a code.
@@ -70,7 +66,6 @@ package Lectures;
  *  F) Maintenance: Updating and improving the code over time,
  * 
  * ---------------------------------------------------------------------------------
- * 
  *                      1.2. High-level vs. Low-level Language
  * 
  *  (High-level Language):
@@ -101,7 +96,6 @@ package Lectures;
  *         of a translator. It runs extremely fast.
  * 
  * ---------------------------------------------------------------------------------
- * 
  *                                1.3. Machine Code
  * 
  *  A) Assembly is one example of a machine language. A set of hardward instructions
@@ -110,7 +104,6 @@ package Lectures;
  *  B) Machine code is a system of instuctions and data executed directly by a CPU.
  * 
  * ---------------------------------------------------------------------------------
- * 
  *                       1.4. Fundamental Programming Concept
  * 
  *  A) Input: Receiving data from a keyboard, files, sensors, or other devices.
@@ -159,6 +152,12 @@ package Lectures;
  *          Welcome to Java!
  * 
  * ---------------------------------------------------------------------------------
+ * =================================================================================
+*/
+
+
+/* 
+ * =================================================================================
  * =================================================================================
 */
 public class L1 {
