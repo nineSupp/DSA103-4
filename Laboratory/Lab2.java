@@ -1,4 +1,4 @@
-package Exercises.Laboratory;
+package Laboratory;
 
 /*
  * (Week 2)

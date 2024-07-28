@@ -28,7 +28,7 @@ package Lectures;
  * 
  *  2) Basic Java Revisited.
  *  
- *  3) *** PA 1.1: Hello World!
+ *  3) *** PA 1.1: Hello World! ***
  * 
  * =================================================================================
  * 
@@ -103,6 +103,15 @@ package Lectures;
  * 
  *  B) Machine code is a system of instuctions and data executed directly by a CPU.
  * 
+ * 
+ *  Example: of 3 stages in languages;
+ * 
+ *       Machine Language            Assembly Language          High Language
+ * 
+ *      001010101100101101   --->        MOV A, 10      --->    A = 10 + 20
+ *      101011101010110110                 ADD 20
+ * 
+ * 
  * ---------------------------------------------------------------------------------
  *                       1.4. Fundamental Programming Concept
  * 
@@ -158,8 +167,13 @@ package Lectures;
 
 /* 
  * =================================================================================
+ *                           3. PA 1.1: Hello World!
+ * 
+ *  For this exercise, the java file is located at ./Exercises/W1/HelloWorld.java.
  * =================================================================================
 */
+
+
 public class L1 {
     // 2.Basic Java Revisited.
     public static void main(String[] args) {

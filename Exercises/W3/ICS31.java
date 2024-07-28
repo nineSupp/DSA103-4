@@ -1,4 +1,4 @@
-package Exercises.Week3;
+package Exercises.W3;
 
 /*
  * Name: Suppatouch Srinual (Nine)
