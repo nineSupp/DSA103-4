@@ -396,7 +396,11 @@ package Lectures;
  *      S - Subtraction
  * 
  *  However, when it comes to Multplication and Division, they are on the same level
- *  as well as Addition and Subtraction. 
+ *  as well as Addition and Subtraction. What will this code output?
+ * 
+ *      System.out.println(2 + 3 * 4 / (2 + 3) * 2));
+ * 
+ *      2 + 12 / 5 * 2 ------> 2 + (12 / 5) * 2 ------> 2 + 2 * 2 ------> 2 + 4
  * ---------------------------------------------------------------------------------
  *                                 3.1) Modulo %
  * 
@@ -557,8 +561,100 @@ package Lectures;
  *          5/2.0 = 2.5; int/double = double
  *      ----------------------------------------
  *----------------------------------------------------------------------------------
-    *                          5.2) Explicit Type Casting
+ *                             5.2) Explicit Type Casting
  * 
+ *  Type casting in JAva is the process of converting one data type into another.
+ * 
+ *  For example,
+ *      int x = 4;
+ *      double y = (double)x;
+ *      ** NOTE: The value of 'x' is 4 and the value of 'y' is 4.0.
+ * ---------------------------------------------------------------------------------
+ * =================================================================================
+*/
+
+
+/*
+ * =================================================================================
+ *                             6) Constant (final keyword)
+ * 
+ *  In Java, a constant is a variable whose value cannot be changed once it has been
+ *  assigned. Java doesn't have a built-in constant keyword, but the 'final' keyword
+ *  by convention constants are usually written in uppercase.
+ * 
+ *      final int MAX_VALUE = 100;
+ *      final double PI = 3.14159;
+ *      final String COURSE_NAME = "ICS 2O1";
+ * =================================================================================
+ */
+
+
+/*
+ * =================================================================================
+ *                                 7) Java Math Class
+ * 
+ *  Java prodives a huge library or collection of useful programs that can be used
+ *  to perform mathematical operations. The Math class is part of the java.lang
+ *  package.
+ * 
+ *  These are some of the examples of the Math class using Math class methods:
+ * ---------------------------------------------------------------------------------
+ *                                   7.1) Math.PI
+ * 
+ *  PI is a constant value that represents the ratio of the circumference of a circle.
+ *  Which in Java is represented as Math.PI, For example:
+ * 
+ *      double PI = Math.PI;        // 3.141592653589793
+ * ---------------------------------------------------------------------------------
+ *                                  7.2) Math.E
+ * 
+ *  E is a constant value that represents the base of the natural logarithm. Which in
+ *  Java is represented as Math.E, For example:
+ * 
+ *      double Exponential = Math.E;        // 2.718281828459045
+ * ---------------------------------------------------------------------------------
+ *                                  7.3) Math.sqrt()
+ * 
+ *  The Math.sqrt() method is used to calculate the square root of a number. For
+ *  example:
+ * 
+ *      int x = 16;
+ *      double squareRoot = Math.sqrt(x);        // 4.0
+ * ---------------------------------------------------------------------------------
+ *                                  7.4) Math.pow()
+ * 
+ *  The Math.pow() method is used to calculate the power of a number. For example:
+ * 
+ *      int x = 2;
+ *      int y = 3;
+ *      double power = Math.pow(x, y);        // 8.0
+ * ---------------------------------------------------------------------------------
+ *                         7.5) Math Trigonometric Functions
+ * 
+ *  The Math class also provides methods for trigonometric functions such as sin(),
+ *  cos(), tan(), asin(), acos(), atan(), etc. For example:
+ * 
+ *     double angle = 45;
+ *     double sinValue = Math.sin(angle);        // 0.8509035245341184
+ * ---------------------------------------------------------------------------------
+ * =================================================================================
+ */
+
+
+/* 
+ * =================================================================================
+ *                        8) ICS 2.1: In Class Assignment 2.1
+ * 
+ *  For this exercise, the java file is located at ./Exercises/W2/ICS21.java.
+ * =================================================================================
+*/
+
+
+/* 
+ * =================================================================================
+ *                        9) ICS 2.1: In Class Assignment 2.2
+ * 
+ *  For this exercise, the java file is located at ./Exercises/W2/ICS22.java.
  * =================================================================================
 */
 
@@ -566,7 +662,8 @@ package Lectures;
 public class L2 {
 
     public static void main(String[] args) {
-        // 1. Variables.
+        //-------------------------------------------------------------------
+        // 1) Variables.
         int age = 35;
         boolean isActive = true;
         String name = "Johnatthan";
@@ -575,8 +672,8 @@ public class L2 {
         System.out.println(isActive);    // true
         System.out.println(name);        // Johnatthan
 
-        //----------------------------------------------
-        // 1,2. Assigning Variables.
+        //-------------------------------------------------------------------
+        // 1,2) Assigning Variables.
         String message;
         int hour, minute;
 
@@ -587,6 +684,11 @@ public class L2 {
         System.out.println(message);    // Hello
         System.out.println(hour);       // 11
         System.out.println(minute);     // 59
-        //----------------------------------------------
+        //-------------------------------------------------------------------
+        // 3) Arithmetic Operators.
+
+        System.out.println(2 + 3 * 4 / (2 + 3) * 2);    // 4
+
+        //-------------------------------------------------------------------
     }
 }

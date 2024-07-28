@@ -37,7 +37,7 @@ package Lectures;
 
 /*  
  * =================================================================================
- *                             1. What Is Programming?
+ *                             1) What Is Programming?
  * 
  *  A) A Progrma = A sequence of instruction that specifies how to perform a computa
  *                 -tion on computer hardware.
@@ -49,7 +49,7 @@ package Lectures;
  *                   computer to execute.
  * 
  * ---------------------------------------------------------------------------------
- *                          1.1. Key Aspects of Programming
+ *                          1.1) Key Aspects of Programming
  * 
  *  A) Algorithm Design: Design a step-by-step procedures of the portions of a code.
  * 
@@ -66,7 +66,7 @@ package Lectures;
  *  F) Maintenance: Updating and improving the code over time,
  * 
  * ---------------------------------------------------------------------------------
- *                      1.2. High-level vs. Low-level Language
+ *                      1.2) High-level vs. Low-level Language
  * 
  *  (High-level Language):
  * 
@@ -96,7 +96,7 @@ package Lectures;
  *         of a translator. It runs extremely fast.
  * 
  * ---------------------------------------------------------------------------------
- *                                1.3. Machine Code
+ *                                1.3) Machine Code
  * 
  *  A) Assembly is one example of a machine language. A set of hardward instructions
  *     mainly configurating the memory adrress and etc.
@@ -113,7 +113,7 @@ package Lectures;
  * 
  * 
  * ---------------------------------------------------------------------------------
- *                       1.4. Fundamental Programming Concept
+ *                       1.4) Fundamental Programming Concept
  * 
  *  A) Input: Receiving data from a keyboard, files, sensors, or other devices.
  * 
@@ -133,7 +133,7 @@ package Lectures;
 
 /*
  * =================================================================================
- *                             2. Basic Java Revisited
+ *                             2) Basic Java Revisited
  * 
  *  - Given the following code snippets, we will see how Java operates:
  * 
@@ -167,7 +167,7 @@ package Lectures;
 
 /* 
  * =================================================================================
- *                           3. PA 1.1: Hello World!
+ *                           3) PA 1.1: Hello World!
  * 
  *  For this exercise, the java file is located at ./Exercises/W1/HelloWorld.java.
  * =================================================================================
