@@ -21,11 +21,11 @@ package Lectures;
  *      2.1) Integers.
  *      2.2) Byte.
  *      2.3) Floating-Point Types.
- *      2.4) Characters (char).
+ *      2.4) Character (char).
  *      2.5) Boolean.
  * 
  *  3) Arithmetic Operators.
- *     3.1) Modulo %
+ *     3.1) Modulo %.
  *     3.2) Increment and Decrement.
  *     3.3) Operators and Data Types.
  * 
@@ -47,7 +47,9 @@ package Lectures;
  * 
  *  8) *** ICS 2.1: In Class Assignment 2.1 ***
  * 
- *  9) *** ICS 2.2L: In Class Assignment 2.2 ***
+ *  9) *** ICS 2.2: In Class Assignment 2.2 ***
+ * 
+ *  10) *** ICS 2.3: In Class Assignment 2.3 ***
  * 
  * =================================================================================
  * 
@@ -597,6 +599,9 @@ package Lectures;
  *  to perform mathematical operations. The Math class is part of the java.lang
  *  package.
  * 
+ *  In order to use Java Math class, you need to import the class, using this Syntax:
+ *      import java.lang.Math;
+ * 
  *  These are some of the examples of the Math class using Math class methods:
  * ---------------------------------------------------------------------------------
  *                                   7.1) Math.PI
@@ -652,9 +657,18 @@ package Lectures;
 
 /* 
  * =================================================================================
- *                        9) ICS 2.1: In Class Assignment 2.2
+ *                        9) ICS 2.2: In Class Assignment 2.2
  * 
  *  For this exercise, the java file is located at ./Exercises/W2/ICS22.java.
+ * =================================================================================
+*/
+
+
+/* 
+ * =================================================================================
+ *                        10) ICS 2.3: In Class Assignment 2.3
+ * 
+ *  For this exercise, the java file is located at ./Exercises/W2/ICS23.java.
  * =================================================================================
 */
 
@@ -672,7 +686,6 @@ public class L2 {
         System.out.println(isActive);    // true
         System.out.println(name);        // Johnatthan
 
-        //-------------------------------------------------------------------
         // 1,2) Assigning Variables.
         String message;
         int hour, minute;
@@ -684,10 +697,80 @@ public class L2 {
         System.out.println(message);    // Hello
         System.out.println(hour);       // 11
         System.out.println(minute);     // 59
+
         //-------------------------------------------------------------------
         // 3) Arithmetic Operators.
 
         System.out.println(2 + 3 * 4 / (2 + 3) * 2);    // 4
+
+        // 3.2) Increment and Decrement.
+
+        int x3_1 = 1;
+        int y3_1 = 2;
+
+        System.out.println(--x3_1);     // 0
+        System.out.println(y3_1--);     // 1
+
+        int x3_2 = 3;
+        int y3_2 = ++x3_2 * 2;          // 8
+        int y3_3 = x3_2++ * 2;          // 6
+        int y3_4 = --x3_2 * 2;          // 4
+        int y3_5 = x3_2-- * 2;          // 6
+
+        System.out.println(y3_2);       // 8
+        System.out.println(y3_3);       // 6
+        System.out.println(y3_4);       // 4
+        System.out.println(y3_5);       // 6
+
+        // 3.3) Operators and Data Types.
+        System.out.println(5/2);        // 2
+        System.out.println(5.0/2.0);    // 2.5
+        System.out.println(5/2.0);      // 2.5
+
+        //-------------------------------------------------------------------
+        // 5.2) Explicit Type Casting.
+
+        int x5_2 = 4;
+        double y5_2 = (double) x5_2;
+        // (Object) - force the variable to be an object.
+        // .getClass() -java.lang.Object methods of defining the class.
+        // .getName() - a method inside .getClass() of getting its name.
+
+        // Because 'y5_2' is a primitive data type. Thus, type cast (Object)
+        // is needed.
+
+        System.out.println(((Object) y5_2).getClass().getName());   
+            // java.lang.Double
+
+        //-------------------------------------------------------------------
+        // 6) Constant (final keyword).
+
+        final int MAX_VALUE = 100;
+        final double PI = 3.14159;
+        final String COURSES_NAME = "ICS 2O1";
+
+        System.out.println(MAX_VALUE);       // 100
+        System.out.println(PI);              // 3.14159
+        System.out.println(COURSES_NAME);    // ICS 2O1
+
+        //-------------------------------------------------------------------
+        // 7) Java Math Class.
+
+        double PI7 = Math.PI;               // 3.141592653589793
+        double Exponential = Math.E;        // 2.718281828459045
+        int example_pow = 16;
+        double squareRoot = Math.sqrt(example_pow);   // 4.0
+        int x7_1 = 2;
+        int y7_1 = 33;
+        double power = Math.pow(x7_1, y7_1);      // 8.0
+        double angle = 45;
+        double sinValue = Math.sin(angle);        // 0.8509035245341184
+
+        System.out.println(PI7);            // 3.141592653589793
+        System.out.println(Exponential);    // 2.718281828459045
+        System.out.println(squareRoot);     // 4.0
+        System.out.println(power);          // 8.0
+        System.out.println(sinValue);       // 0.8509035245341184
 
         //-------------------------------------------------------------------
     }

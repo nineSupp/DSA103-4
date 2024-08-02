@@ -1,4 +1,4 @@
-package Laboratory;
+package Exercises.W2;
 
 /*
  * (Week 2)
@@ -7,8 +7,12 @@ package Laboratory;
  * Note: Exercise from week 2, Laboratory 2.
  */
 
+ 
 public class Lab2 {
     public static void main(String[] args) {
+        // Problem 1.
+        System.out.println("\"Hello World \\n" + "My Name is Chanakarn \\n" + "I'm lecturer\"");    // Output: "Hello World \nMy Name is Chanakarn \nI'm lecturer"
+
         // Problem 2.
         System.out.println("사건은 다가와, ah-oh, ayy\n거세게 커져가, ah-oh, ayy\nThat tick, that tick, tick bomb\nThat tick, that tick, tick bomb\n감히 건드리지 못할 걸 (누구도 말이야)\n지금 내 안에선 (su-su-su-supernova)");
 
