@@ -565,7 +565,7 @@ package Lectures;
  *----------------------------------------------------------------------------------
  *                             5.2) Explicit Type Casting
  * 
- *  Type casting in JAva is the process of converting one data type into another.
+ *  Type casting in Java is the process of converting one data type into another.
  * 
  *  For example,
  *      int x = 4;
