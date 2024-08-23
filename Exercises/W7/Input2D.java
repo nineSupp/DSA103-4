@@ -20,5 +20,7 @@ public class Input2D {
             }
             System.out.println(" ");
         }
+
+        input.close();
     }
 }
