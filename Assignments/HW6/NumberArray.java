@@ -17,23 +17,29 @@ package Assignments.HW6;
  * ==================================================================================
  */
 
-
 import java.util.Random;
 import java.util.Scanner;
 
 public class NumberArray {
     public static void main(String[] args) {
+        // Taking input n from the user.
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the value for n: ");
         int n = scanner.nextInt();
 
+        // Randomly generate numbers with a range of 1-100 (inclusively).
+        // Once generated we will put them into an array of size n + 1.
+        // Where array[0] = n. Thus, array[1] is the start.
         int[] arr = new int[n + 1];
         arr[0] = n;
         Random rd = new Random();
         for(int i = 1; i < arr.length; i++) {
-            arr[i] = rd.nextInt(101);
+            arr[i] = rd.nextInt(101);       // from 1-100
         }
 
+        // The main mechanics. Does the sum, find the max and min at the same time.
+        // We take the first array[1] as the start of comparison.
+        // The loop start at the second index of an array.
         int sum = arr[1];
         int max = arr[1];
         int min = arr[1];
@@ -47,6 +53,7 @@ public class NumberArray {
             }
         }
 
+        // Just to display the array.
         String arrayDisplay = "[";
         for(int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1) {
@@ -63,25 +70,5 @@ public class NumberArray {
         System.out.printf("The minimum value in the array is %d%n", min);
 
         scanner.close();
-
-        
     }
 }
-
-
-
-
-
-/*
- * Empire state goes green, The tallest building in NYC
- * environmental makeover.
- * open 1931. 443 m talls for many years.
- * Makeover will reduce engery use by 30% save 4 mill per year.
- * have 6500 windows, new glass innsulated will make warming in winter.
- * 
- * energy efficient lights, modern cooling system.
- * 
- * 100 thoudsands tons of co2 release. Reduce green house gases. 80% of greenhouse from city building
- * 
- * 1 improvement = 12 mill dollar
- */
